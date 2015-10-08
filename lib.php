@@ -377,7 +377,16 @@ function block_progress_monitorable_modules() {
             ),
             'defaultAction' => 'viewed'
         ),
-        'hotpot' => array(
+        'gradedtask' => array(
+            'actions' => array(
+                'taskdone' => "SELECT id
+                                                FROM {course_modules_completion}
+                                               WHERE coursemoduleid = :cmid
+                                                 AND userid = :userid
+                                                 AND completionstate = 1",
+            ),
+            'defaultAction' => 'taskdone'
+        ),'hotpot' => array(
             'defaultTime' => 'timeclose',
             'actions' => array(
                 'attempted'    => "SELECT id

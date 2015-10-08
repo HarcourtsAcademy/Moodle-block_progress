@@ -38,6 +38,7 @@ $string['flashcardtrainer'] = 'Flashcard trainer';
 $string['folder'] = 'Folder';
 $string['forum'] = 'Forum';
 $string['glossary'] = 'Glossary';
+$string['gradedtask'] = 'Graded Task';
 $string['hotpot'] = 'Hot Potatoes';
 $string['hsuforum'] = 'Advanced Forum';
 $string['imscp'] = 'IMS Content Package';
@@ -72,6 +73,7 @@ $string['passedscorm'] = 'passed';
 $string['posted_to'] = 'posted to';
 $string['responded_to'] = 'responded to';
 $string['submitted'] = 'submitted';
+$string['taskdone'] = 'Task done';
 $string['viewed'] = 'viewed';
 
 // Stings for the Config page.
